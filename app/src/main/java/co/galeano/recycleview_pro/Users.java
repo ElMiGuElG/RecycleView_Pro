@@ -29,6 +29,7 @@ public class Users extends AppCompatActivity {
             TextMessage = receive.getStringExtra("TextMessage");
             TextTimeMessage = receive.getStringExtra("TextTimeMessage");
             Picture = receive.getIntExtra("imagen",R.drawable.img_person1);
+
             personName.setText(PersonName);
             textMessage.setText(TextMessage);
             textTimeMessage.setText(TextTimeMessage);

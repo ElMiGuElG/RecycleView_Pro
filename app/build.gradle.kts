@@ -6,6 +6,11 @@ android {
     namespace = "co.galeano.recycleview_pro"
     compileSdk = 34
 
+    buildFeatures{
+        viewBinding = true
+    }
+
+
     defaultConfig {
         applicationId = "co.galeano.recycleview_pro"
         minSdk = 24

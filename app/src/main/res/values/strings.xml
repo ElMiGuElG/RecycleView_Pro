@@ -2,6 +2,30 @@
     <string name="app_name">RecycleView_Pro</string>
 
     <!-- App Text -->
-
     <string name="inbox">Bandeja de entrada</string>
+
+    <!-- text of names -->
+    <string name="person1">María García</string>
+    <string name="person2">Alejandro Gómez</string>
+    <string name="person3">Laura Martínez</string>
+    <string name="person4">Juan Rodríguez</string>
+    <string name="person5">Ana López</string>
+    <string name="person6">Carlos Pérez</string>
+
+    <!-- text of messages -->
+    <string name="message1">Quiero expresar mi sincero agradecimiento por tomarse el tiempo de entrevistarme para el puesto. Fue un placer conocerlo/a y aprender más sobre el equipo y la empresa en general. Me entusiasma aún más la posibilidad de contribuir con mis habilidades y experiencia al equipo de SpaceX. Quedo a su disposición para proporcionar cualquier información adicional que pueda necesitar. Gracias nuevamente por considerar mi candidatura.</string>
+    <string name="message2">Espero que este correo lo/a encuentre bien. Me gustaría hacer un seguimiento de la propuesta que le enviamos recientemente para el sistema. Estamos entusiasmados con la oportunidad de colaborar con usted y su equipo en este proyecto y estamos disponibles para discutir cualquier pregunta que pueda surgir. Valoramos enormemente su consideración y estamos ansiosos por trabajar juntos para lograr sus objetivos. Quedo a su disposición para cualquier aclaración necesaria.</string>
+    <string name="message3">Quiero expresar mis más sinceras felicitaciones por el ascenso. Es un testimonio de su dedicación, talento y arduo trabajo. Estoy realmente impresionado/a por sus logros y me siento honrado/a de haber sido testigo de su crecimiento y éxito. ¡Este hito es solo el comienzo de un viaje aún más emocionante! Estoy seguro/a de que seguirá cosechando éxitos en el futuro. ¡Enhorabuena nuevamente!</string>
+    <string name="message4">Espero que este correo lo/a encuentre bien. Me estoy preparando y me preguntaba si estaría dispuesto/a a proporcionar una carta de recomendación en mi nombre. Creo que su testimonio sobre mi sería de gran valor para fortalecer mi solicitud. Por supuesto, comprendo si no puede hacerlo, pero apreciaría enormemente su apoyo en este proceso.</string>
+    <string name="message5">Quiero disculparme sinceramente. Reconozco que esto ha causado problemas y quiero asumir la responsabilidad completa por mi parte en este asunto. Estoy tomando medidas para corregir la situación y asegurarme de que no se repita en el futuro. Si hay algo más que pueda hacer para remediar esta situación, no dude en decírmelo.</string>
+    <string name="message6">Solo quería agradecerle por la reunión de ayer. Fue muy productiva y aprecio mucho el tiempo que nos dedicó. Estoy ansioso/a por avanzar en las acciones acordadas y espero con interés nuestra próxima interacción.</string>
+
+    <!-- text of times -->
+    <string name="time1">10:00 AM</string>
+    <string name="time2">11:30 AM</string>
+    <string name="time3">12:15 PM</string>
+    <string name="time4">2:00 PM</string>
+    <string name="time5">3:45 PM</string>
+    <string name="time6">5:20 PM</string>
+
 </resources>

@@ -16,13 +16,13 @@ public class ListAdapter extends BaseAdapter {
     int[] Picture;
     LayoutInflater Inflater;
 
-    public ListAdapter(android.content.Context context, String[] personName, String[] textMessage, String[] textTimeMessage, int[] picture) {
+    public ListAdapter(Context context, String[] personName, String[] textMessage, String[] textTimeMessage, int[] picture) {
         this.Context = context;
         this.PersonName = personName;
         this.TextMessage = textMessage;
         this.TextTimeMessage = textTimeMessage;
         this.Picture = picture;
-        Inflater = LayoutInflater.from(context);
+        Inflater = LayoutInflater.from(Context);
     }
 
     @Override
