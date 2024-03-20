@@ -63,10 +63,6 @@ public class MainMenuActivity extends AppCompatActivity {
                         .putExtra("name",PersonName[position])
                         .putExtra("picture",profilePicture[position])
                         .putExtra("text",TextMessage[position]);
-
-                        //.putExtra("telefono",telefonos[posicion])
-                        //.putExtra("imagen",fotoPerfil[posicion]);
-
                 startActivity(sendInformation);
             }
 

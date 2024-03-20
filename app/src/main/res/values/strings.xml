@@ -3,6 +3,7 @@
 
     <!-- App Text -->
     <string name="inbox">Bandeja de entrada</string>
+    <string name="contact">Contacto</string>
 
     <!-- text of names -->
     <string name="person1">María García</string>

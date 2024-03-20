@@ -52,6 +52,7 @@ public class ListAdapter extends BaseAdapter {
         personName.setText(PersonName[i]);
         textMessage.setText(TextMessage[i]);
         textTimeMessage.setText(TextTimeMessage[i]);
+
         return view;
     }
 }
