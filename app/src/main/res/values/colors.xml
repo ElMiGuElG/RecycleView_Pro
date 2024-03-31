@@ -5,4 +5,6 @@
     
     <!-- App Color -->
     <color name="grey">#F7F7FA</color>
+    <color name="grayText">#807E7E7E</color>
+
 </resources>

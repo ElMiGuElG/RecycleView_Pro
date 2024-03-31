@@ -3,14 +3,20 @@ package co.galeano.recycleview_pro;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 public class MainMenuActivity extends AppCompatActivity {
 
     ListView Users;
+    private int selectedItemPosition = -1;
+    private int originalNameTextColor;
+    private int originalMessageTextColor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,8 +70,30 @@ public class MainMenuActivity extends AppCompatActivity {
                         .putExtra("picture",profilePicture[position])
                         .putExtra("text",TextMessage[position]);
                 startActivity(sendInformation);
-            }
+                selectedItemPosition = position;
+                originalNameTextColor = ((TextView) vista.findViewById(R.id.personName)).getCurrentTextColor();
+                originalMessageTextColor = ((TextView) vista.findViewById(R.id.textMessage)).getCurrentTextColor();
 
+            }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (selectedItemPosition != -1) {
+            View view = Users.getChildAt(selectedItemPosition - Users.getFirstVisiblePosition());
+            if (view != null) {
+                TextView nameTextView = view.findViewById(R.id.personName);
+                if (nameTextView != null) {
+                    nameTextView.setTextColor(Color.GRAY);
+                }
+                TextView messageTextView = view.findViewById(R.id.textMessage);
+                if (messageTextView != null) {
+                    nameTextView.setTextColor(Color.GRAY);
+                }
+            }
+            selectedItemPosition = -1;
+        }
     }
 }
